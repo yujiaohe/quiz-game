@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}Start the quiz{% endblock %}
+{% block content %}
+<div class="modal-header p-5 pb-4 border-bottom-0">
+    <h1 class="fw-bold mb-0 fs-2">👏Quiz Test👏</h1>
+</div>
+<div class="modal-body p-5 pt-0">
+    <form method="post" action="{{ url_for('home') }}" novalidate>
+        {{ form.hidden_tag() }}
+        <div class="mb-3">
+            <div>{{ form.category.label(class="form-label")}}</div>
+            {{ form.category(class="form-select")}}
+        </div>
+        <div class="mb-3">
+            <div>{{ form.type.label(class="form-label")}}</div>
+            {{ form.type(class="form-select")}}
+        </div>
+        <div class="mb-3">
+            <div>{{ form.difficulty.label(class="form-label")}}</div>
+            {{ form.difficulty(class="form-select")}}
+        </div>
+        <div class="mb-3">
+            <div>{{ form.amount.label(class="form-label")}}</div>
+            {{ form.amount(class="form-select")}}
+        </div>
+        {{ form.submit(class="w-100 mb-2 btn rounded-3 btn-primary") }}
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}Final score{% endblock %}
+{% block content %}
+<div class="p-5 pb-2 border-bottom-0">
+    <h1 class="fw-bold mb-3 fs-2">🥳 Final score on
+    </h1>
+    <h4 class="mb-0">
+        <span class="badge rounded-pill text-bg-success">{{ ques[0].category }}</span>
+        <span class="badge rounded-pill text-bg-success">{{ ques[0].difficulty.title() }}</span>
+        <span class="badge rounded-pill text-bg-success">{{ ques[0].type.title() }}</span>
+    </h4>
+</div>
+
+<div class="modal-body p-5 pt-0 justify-content-center align-items-center text-center">
+    <p class="mb-0 fs-2 p-5 text-center">
+        {{score}}/{{ques|length}} ({{pct}}%)
+    </p>
+    <a href="{{ url_for('home') }}" class="mb-2 btn rounded-3 btn-primary">Retake the quiz</a>
+</div>
+{% endblock %}

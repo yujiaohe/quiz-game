@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %}Quiz{% endblock %}
+{% block content %}
+<div class="modal-header p-5 pb-2 border-bottom-0 justify-content-center">
+    <h4 class="fw-bold mb-2 fs-2 pt-2">
+        Score: <span class="px-5 badge text-bg-success">{{ score }}/{{ ques | length }}</span>
+    </h4>
+</div>
+<div class="modal-body p-5 pt-0">
+    <div class="d-flex flex-column flex-md-row p-3 pt-2 gap-4 py-md-5 align-items-center justify-content-center">
+        <div class="list-group">
+            <h5 class="mb-3">Q{{ques_num+1}}. {{ ques[ques_num].question|safe }}</h5>
+            {% for item in ques[ques_num].option %}
+            <a href="{{ url_for('quiz', ques_num=ques_num, ans=item, score=score) }}"
+               class="list-group-item list-group-item-action d-flex gap-3 py-3
+               {% if is_correct is defined and item == ques[ques_num].correct_answer %}bg-success text-white
+               {% elif is_correct is defined and item == ans %}bg-danger text-white
+               {% endif %} {% if is_correct is defined%}disabled{% endif %}"
+               aria-current="true">
+                <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                        <p class="mb-0">{{ item|safe }}</p>
+                    </div>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<script>
+    {% if is_correct is defined %}
+    setTimeout(function() {
+        window.location.href = "{{ url_for('quiz', ques_num=ques_num+1, score=score) | safe }}";
+    }, 2000);
+    {% endif %}
+</script>
+{% endblock %}
