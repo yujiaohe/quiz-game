@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-To play the GUI-based version of the quiz game, follow these steps:
+To play the web-based version of the quiz game, follow these steps:
 
 1. Clone the repository to your local machine.
 2. Navigate to the web-based directory.
@@ -14,6 +14,6 @@ To play the GUI-based version of the quiz game, follow these steps:
 ## Screenshot
 
 |                                                                      |                                                                      |
-|----------------------------------------------------------------------|----------------------------------------------------------------------|
+| -------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | <img src="images/web-based-1.png" style="width:220px; height:250px"> | <img src="images/web-based-2.png" style="width:220px; height:250px"> |
 | <img src="images/web-based-4.png" style="width:140px; height:100px"> | <img src="images/web-based-3.png" style="width:140px; height:100px"> |
