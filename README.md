@@ -30,10 +30,6 @@ To get started with any version of the quiz game, follow the instructions specif
 - For the GUI-based version, refer to the [gui-based/README.md](./gui-based/README.md) file.
 - For the web-based version, refer to the [web-based/README.md](./web-based/README.md) file.
 
-## License
-
-This project is licensed under the [MIT License](). Feel free to modify and distribute the code as per the terms of the license.
-
 ## Acknowledgements
 
 We would like to acknowledge the following resources and libraries used in the development of this quiz game:
