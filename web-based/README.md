@@ -13,7 +13,7 @@ To play the web-based version of the quiz game, follow these steps:
 
 ## Screenshot
 
-<img src="images/web-based-1.png" alt="text quiz game" style="width:20%; height:auto;">
-<img src="images/web-based-2.png" alt="text quiz game" style="width:20%; height:auto;"> 
-<img src="images/web-based-3.png" alt="text quiz game" style="width:20%; height:auto;"> 
-<img src="images/web-based-4.png" alt="text quiz game" style="width:20%; height:auto;">
+<img src="images/web-based-1.png" alt="text quiz game" style="width:25%; height:auto;">
+<img src="images/web-based-2.png" alt="text quiz game" style="width:25%; height:auto;"> 
+<img src="images/web-based-3.png" alt="text quiz game" style="width:25%; height:auto;"> 
+<img src="images/web-based-4.png" alt="text quiz game" style="width:25%; height:auto;">

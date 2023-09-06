@@ -20,10 +20,10 @@ This repository contains three versions of a quiz game: text-based, GUI-based, a
 
    The web-based version of the quiz game allows users to play the game through a web browser. Players can access the game by visiting a specific URL and interact with the quiz using their mouse or touch input. This version offers the flexibility of playing the game on various devices without the need for installation.
    
-   <img src="web-based/images/web-based-1.png" alt="text quiz game" style="width:20%; height: auto;">
-   <img src="web-based/images/web-based-2.png" alt="text quiz game" style="width:20%; height: auto;"> 
-   <img src="web-based/images/web-based-3.png" alt="text quiz game" style="width:20%; height: auto;"> 
-   <img src="web-based/images/web-based-4.png" alt="text quiz game" style="width:20%; height: auto;">
+   <img src="web-based/images/web-based-1.png" alt="text quiz game" style="width:25%; height: auto;">
+   <img src="web-based/images/web-based-2.png" alt="text quiz game" style="width:25%; height: auto;"> 
+   <img src="web-based/images/web-based-3.png" alt="text quiz game" style="width:25%; height: auto;"> 
+   <img src="web-based/images/web-based-4.png" alt="text quiz game" style="width:25%; height: auto;">
    
 
 ## Features
